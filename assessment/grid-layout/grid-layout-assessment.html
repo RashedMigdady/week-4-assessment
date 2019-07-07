@@ -19,33 +19,54 @@
 
     .a {
       background: #0d9;
+      grid-column:2/3; 
+      grid-row:2/3;
+
     }
 
     .b {
       background: #d90;
+      grid-column:1/2; 
+      grid-row:1/2;
     }
 
     .c {
       background: #9d0;
+      grid-column:2/3; 
+      grid-row:1/2;
     }
 
     .d {
       background: #90d;
+      grid-column:3/4; 
+      grid-row:1/2;
     }
 
     .e {
       background: #d09;
+      grid-column:1/2; 
+      grid-row:2/3;
     }
 
     .f {
       background: #09d;
+      grid-column:3/4; 
+      grid-row:2/3;
     }
 
 
     /* Your code starts here */
     /* CODE AREA */
 
-    .container {}
+    .container {
+      display: grid;
+      grid-template-columns: fr1 fr1 fr1;
+      grid-template-rows: fr1 fr1;
+      grid-gap: 10px;
+
+
+
+    }
 
     .a {}
 
